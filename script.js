@@ -1,4 +1,4 @@
-const broker = "wss://test.mosquitto.org:8081/mqtt";
+const broker = "ws://123.45.67.89:9001/mqtt";
 let topic = "huber/R1/";
 const client = mqtt.connect(broker);
 
