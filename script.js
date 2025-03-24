@@ -1,4 +1,4 @@
-const broker = "ws://34.46.107.172:9001/mqtt"; // Usar ws:// si no se usa TLS
+const broker = "wss://34.46.107.172:9001/mqtt"; // Usar ws:// si no se usa TLS
 let topic = "huber/R1/";
 const client = mqtt.connect(broker);
 
