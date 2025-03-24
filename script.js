@@ -1,4 +1,4 @@
-const broker = "ws://123.45.67.89:9001/mqtt";
+const broker = "wss://123.45.67.89:9001/mqtt";
 let topic = "huber/R1/";
 const client = mqtt.connect(broker);
 
